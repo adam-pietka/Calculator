@@ -1,14 +1,15 @@
 package com.kodilla.calculator;
 
 public class Calculator {
-    public double addMethod(double a ,double b ){
+    public double addMethod(double a, double b) {
         double c = a + b;
         System.out.println("Result for add " + a + " + " + b + " = " + c);
         return c;
     }
-    public double minusMethod(double a, double b){
+
+    public double minusMethod(double a, double b) {
         double c = a - b;
-        System.out.println("Result for subtraction " + a + " - " + b +" = " + c);
+        System.out.println("Result for subtraction " + a + " - " + b + " = " + c);
         return c;
     }
 
